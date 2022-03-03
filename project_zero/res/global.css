@@ -1,0 +1,24 @@
+  body{
+		font-size: min(max(2vw,1em),1.8em);
+		font-family:'Poppins','Arial','Helvetica','Roboto',sans-serif;
+		color:#333;
+	}
+  div{padding:8em;}
+  p{font-size:1em; line-height:1.4em; margin:0 0 1.8em 0;}
+  h1{font-size:4em; line-height:1.4em; margin:0 0 0.2em 0; text-transform:uppercase; color:#999;}
+	h2{font-size:1.6em; line-height:1.4em; margin:0 0 1.8em 0; font-weight:200;}
+	h3{font-size:1.2em; line-height:1.4em; margin:1.5em 0 1em 0; font-weight:700;}
+
+	hr{border:none; height:4px; background-color:#999; color:#999; width:50%;}
+
+  ul{list-style-type: disc; margin-left:2em;}
+	ol{list-style-type: decimal; margin-left:2em;}
+  li{font-size:1em; line-height:1.4em; margin:0 0 1.8em 0;}
+
+  table.type1{margin:0 0 1em 0; width:100%;}
+	table.type1 tr{border-bottom:1px solid #ccc;}
+	table.type1 td{ padding:0.5em 1em;}
+
+	table.type2{margin:0 0 1em 0; width:100%;}
+	table.type2 tr:nth-child(odd){background:#eee;}
+	table.type2 td{ padding:0.5em 1em;}
