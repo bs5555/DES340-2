@@ -1,3 +1,26 @@
+body{font-family:'Poppins','Arial','Helvetica','Roboto',sans-serif;
+font-size:min(max(1vw,0.8em),1.5em);}
+
+.rtf p{font-size:1em; line-height:1.4em; margin:0 0 1.8em 0;}
+.rtf h1{font-size:4em; line-height:1.4em; margin:0 0 0.2em 0; text-transform:uppercase; color:#999;}
+.rtf h2{font-size:1.6em; line-height:1.4em; margin:0 0 1.8em 0; font-weight:200;}
+.rtf h3{font-size:1.2em; line-height:1.4em; margin:1.5em 0 1em 0; font-weight:700;}
+.rtf h4{font-size:1em; line-height:1.4em; margin:1.5em 0 1em 0; font-weight:700;}
+
+.rtf hr{border:none; height:4px; background-color:#999; color:#999; width:50%;}
+.rtf ul{list-style-type: disc; margin-left:2em;}
+.rtf ol{list-style-type: decimal; margin-left:2em;}
+.rtf li{font-size:1em; line-height:1.4em; margin:0 0 1.8em 0;}
+
+.rtf table.type1{margin:0 0 1em 0; width:100%;}
+.rtf table.type1 tr{border-bottom:1px solid #ccc;}
+.rtf table.type1 td{ padding:0.5em 1em;}
+
+.rtf table.type2{margin:0 0 1em 0; width:100%;}
+.rtf table.type2 tr:nth-child(odd){background:#eee;}
+.rtf table.type2 td{ padding:0.5em 1em;}
+
+
 div.slide{
   border:1px solid #ccc;
   min-height:100vh;
@@ -32,8 +55,8 @@ div.card:hover a.pinterest{opacity:1;}
 
 div.card img.image{width:100%;}
 div.card div.card-txt{padding:2vw;}
-div.card div.card-txt h4{font-size:1.5em; margin-bottom:1em;}
-div.card div.card-txt p{font-size:0.8em;}
+div.card div.card-txt h4{margin-bottom:1em;}
+div.card div.card-txt p{}
 
 a.pinterest{
   opacity:0;
@@ -60,10 +83,8 @@ img.contentimg{
 div.contentxt{
   align-self:center;
   justify-self:center;
-
 }
-div.contentxt p{font-size:3em;}
-div.contentxt h1{font-size:6em;}
+
 
 
 div.frame{
@@ -89,8 +110,7 @@ div.herotxt{
   padding:3em;
   transition:all 0.5s;
 }
-div.herotxt h1{font-size:6em;}
-div.herotxt p{font-size:3em;}
+
 
 div.herotxt:hover{
   background-color:rgba(0,0,0,0.6);
